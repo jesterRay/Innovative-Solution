@@ -37,7 +37,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+.text-shadow{
+    text-shadow: 0px 0px 1px black;
+}
 .neutral-gradient{
     background: var(--neutral-color-gradient)!important ;
 }
@@ -60,10 +62,18 @@
 /* Target styles for screens smaller than 576px (xs) */
 @media (max-width: 575.98px) {
     /* Your styles here */
+    /* teams-section */
+    #teams-section .card{
+        width: 18rem!important;
+    }
+
 }
 /* Target styles for small screens (sm) and above */
 @media (min-width: 576px) {
     /* Your styles here */
+    #teams-section .card{
+        width: 25rem!important;
+    }
 }
 
 /* Target styles for medium screens (md) and above */
@@ -71,10 +81,19 @@
     #upperNavBar .nav-item{
         margin-left: 1rem;
     }
+    #teams-section .card{
+        width: 35rem!important;
+    }
 }
 
 /* Target styles for large screens (lg) and above */
 @media (min-width: 992px) {
+    /* teams-section */
+    #teams-section .card{
+        width: 18rem!important;
+    }
+    
+
 }
 
 /* Target styles for extra large screens (xl) and above */
@@ -160,4 +179,12 @@
 /* journey */
 .journey-img-container{
     /* padding: 2rem; */
+}
+
+
+/* future envision */
+
+/* testimonial Carousel */
+#testimonialCarousel .carousel-item img{
+    max-height: 35rem;
 }
