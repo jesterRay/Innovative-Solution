@@ -66,6 +66,12 @@
     #teams-section .card{
         width: 18rem!important;
     }
+    .contact-us-left-section{
+        border-radius: 0 0 20px 20px;
+    }
+    .contact-us-right-section{
+        border-radius: 20px 20px 0px 0px;
+    }
 
 }
 /* Target styles for small screens (sm) and above */
@@ -73,6 +79,13 @@
     /* Your styles here */
     #teams-section .card{
         width: 25rem!important;
+    }
+
+    .contact-us-left-section{
+        border-radius: 0 0 20px 20px;
+    }
+    .contact-us-right-section{
+        border-radius: 20px 20px 0px 0px;
     }
 }
 
@@ -83,6 +96,13 @@
     }
     #teams-section .card{
         width: 35rem!important;
+    }
+
+    .contact-us-left-section{
+        border-radius: 0 20px 20px 0;
+    }
+    .contact-us-right-section{
+        border-radius: 20px 0px 0px 20px;
     }
 }
 
@@ -188,3 +208,5 @@
 #testimonialCarousel .carousel-item img{
     max-height: 35rem;
 }
+
+
