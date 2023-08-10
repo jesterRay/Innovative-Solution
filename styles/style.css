@@ -286,8 +286,10 @@
 }
 
 .service-lower-svg .shape-fill,
-.service-upper-svg .shape-fill {
+.service-upper-svg .shape-fill{
     fill:var(--neutral-bg);
+    stroke: var(--neutral-color);
+    
 }
 
 
@@ -312,7 +314,7 @@
 
 #teams-section .image-container img{
     width: 11rem!important;
-    aspect-ratio: 1!important;
+    height: 11rem!important;
     object-fit: cover;
 }
 
