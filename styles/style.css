@@ -311,6 +311,9 @@
 }
 
 
+#teams-section .image-container{
+    width: fit-content;
+}
 
 #teams-section .image-container img{
     width: 11rem!important;
