@@ -8,18 +8,48 @@
 }
 
 :root{
-    --neutral-color-gradient: linear-gradient(to bottom,rgba(255, 0, 217, 0.817),rgb(183, 2, 155));
-    --neutral-color:rgb(216, 21, 187);
-    --secondary-color-gradient: linear-gradient(to bottom,rgba(0, 94, 255, 0.817),rgb(2, 29, 183));
+
+    --primary-color:rgb(76, 97, 255);
+    --primary-bg:rgb(76, 97, 255);
+    --secondary-color:rgb(17, 17, 17);
+    --secondary-bg:rgb(17, 17, 17);
+    --neutral-color:white;
+    --neutral-bg:white;
+    --neutral-dark-bg:rgb(193, 193, 193);
+    --neutral-dark-color:rgb(193, 193, 193);
+
+    
 }
 
-.max-vw-100{
-    max-width: 100vw!important;
+
+.primary-color{
+    color: var(--primary-color);
+}
+.primary-bg{
+    background: var(--primary-bg);
+}
+.secondary-color{
+    color: var(--secondary-color);
+}
+.secondary-bg{
+    background: var(--secondary-bg);
+}
+.neutral-color{
+    color: var(--neutral-color);
+}
+.neutral-bg{
+    background:var(--neutral-bg) ;
+}
+.neutral-dark-bg{
+    background: var(--neutral-dark-bg);
+}
+.neutral-dark-color{
+    color: var(--neutral-dark-color);
+
 }
 
-.pages{
-    max-width: 100vw!important;
-}
+
+
 .text-shadow{
     text-shadow: 0px 0px 1px black;
 }
@@ -63,64 +93,71 @@
 @media (max-width: 575.98px) {
     /* Your styles here */
     /* teams-section */
-    #teams-section .card{
-        width: 18rem!important;
+    .navbar{
+        background-image: none;
+        background-color: var(--primary-bg);
+       }
+       #choose-us-section .card{
+        width: 20rem;
     }
-    .contact-us-left-section{
-        border-radius: 0 0 20px 20px;
-    }
-    .contact-us-right-section{
-        border-radius: 20px 20px 0px 0px;
-    }
-
 }
 /* Target styles for small screens (sm) and above */
 @media (min-width: 576px) {
     /* Your styles here */
-    #teams-section .card{
-        width: 25rem!important;
+    .navbar{
+        background-image: none;
+        background-color: var(--primary-bg);
     }
 
-    .contact-us-left-section{
-        border-radius: 0 0 20px 20px;
+    #choose-us-section .card{
+        width: 22rem;
     }
-    .contact-us-right-section{
-        border-radius: 20px 20px 0px 0px;
-    }
+
+    /* .nav-item:hover,
+    .nav-item:focus,
+    .nav-item:active{
+        min-width: 100vw;
+        background: var(--neutral-bg);
+        color: var(--primary-color);
+    } */
 }
 
 /* Target styles for medium screens (md) and above */
 @media (min-width: 768px) {
-    #upperNavBar .nav-item{
-        margin-left: 1rem;
+    #footer-option{
+        width: 60rem!important;
     }
-    #teams-section .card{
-        width: 35rem!important;
-    }
+   
 
-    .contact-us-left-section{
-        border-radius: 0 20px 20px 0;
-    }
-    .contact-us-right-section{
-        border-radius: 20px 0px 0px 20px;
-    }
 }
 
 /* Target styles for large screens (lg) and above */
 @media (min-width: 992px) {
-    /* teams-section */
-    #teams-section .card{
-        width: 18rem!important;
+    .navbar-brand{
+        color: var(--neutral-color);
+    }
+    .navbar{
+        background-color: var(--neutral-bg);
+        background-image: url('../img/nav-vector.svg');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 14rem;
     }
     
+
 
 }
 
 /* Target styles for extra large screens (xl) and above */
 @media (min-width: 1200px) {
-    #service{
+    /* #service{
         margin-top: 9rem!important;
+    } */
+    .navbar-brand{
+        color: var(--primary-color);
     }
+    
 }
 
 
@@ -178,8 +215,22 @@
 /*************************** hero section ***********************/
 
 
+/* navbar */
+.nav-bg{
+    background-image: url('../img/nav-vector.svg');
+    height: fit-content;
+
+}
+
+
 
 /* services */
+/* #service{
+    background: url('../img/services-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
 .services-provide img{
     width: 4rem!important;
 }
@@ -205,8 +256,82 @@
 /* future envision */
 
 /* testimonial Carousel */
-#testimonialCarousel .carousel-item img{
-    max-height: 35rem;
+
+
+
+
+
+#service{
+    background: var(--neutral-dark-bg);
 }
 
+
+
+.service-lower-svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.service-lower-svg svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    /* height: 136px; */
+    height: 100px;
+
+}
+
+.service-lower-svg .shape-fill,
+.service-upper-svg .shape-fill {
+    fill:var(--neutral-bg);
+}
+
+
+.service-upper-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotatey(180deg);
+}
+
+.service-upper-svg svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 81px;
+}
+
+
+
+#teams-section .image-container img{
+    width: 11rem!important;
+    aspect-ratio: 1!important;
+    object-fit: cover;
+}
+
+
+
+
+/* contact us */
+#contact-us{
+    background: url('../img/join-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active{
+    background-color: rgb(98, 116, 255);
+    color: white;
+}
 
