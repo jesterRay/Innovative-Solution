@@ -21,14 +21,14 @@ pages.forEach((page,i) => {
 
 
 
-ScrollTrigger.create({
-    snap: {
-        snapTo: (progress, self) => {
-            let tops = pagesTop.map(st => st.start),
-            snapScroll = gsap.utils.snap(tops, self.scroll());
+// ScrollTrigger.create({
+//     snap: {
+//         snapTo: (progress, self) => {
+//             let tops = pagesTop.map(st => st.start),
+//             snapScroll = gsap.utils.snap(tops, self.scroll());
 
-            return gsap.utils.normalize(0, ScrollTrigger.maxScroll(window),snapScroll);
-        },
-        duration:0.5      
-    }
-});
+//             return gsap.utils.normalize(0, ScrollTrigger.maxScroll(window),snapScroll);
+//         },
+//         duration:0.5      
+//     }
+// });
