@@ -419,7 +419,7 @@
 
 
 .navbar-toggler.collapsed .top-bar{
-    margin-top: -20px;
+    margin-top: -15px;
     transform: rotate(0deg);
 }
 .navbar-toggler.collapsed .middle-bar{
@@ -427,6 +427,6 @@
     filter: alpha(opacity=1);
 }
 .navbar-toggler.collapsed .bottom-bar{
-    margin-top: 20px;
+    margin-top: 15px;
     transform: rotate(0deg);
 }
