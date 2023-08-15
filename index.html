@@ -11,89 +11,97 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/style.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Innovative Solutions</title>
   </head>
 
-  <body class="ff-secondary">
+<body class="ff-secondary">
     <!------------------------------ MAIN ------------------------>
 
-    <!------------------------------------------------------------>
-    <!--------------------------- NAV-BAR ------------------------>
-    <!------------------------------------------------------------>
-    <nav class="navbar navbar-expand-md navbar-dark  px-md-0 px-2">
-        <div class="container px-lg-5">
-            <!-- nav logo -->
-            <div class="navbar-brand text-uppercase">
-                <h2 class="fw-bolder pb-lg-5 mb-lg-5">ISN</h2>
+   <section class="pages page-height">
+        <!------------------------------------------------------------>
+        <!--------------------------- NAV-BAR ------------------------>
+        <!------------------------------------------------------------>
+        <nav class="navbar navbar-expand-md navbar-dark  px-md-0 px-2 ">
+            <div class="container px-lg-5">
+                <!-- nav logo -->
+                <div class="navbar-brand text-uppercase">
+                    <h2 class="fw-bolder pb-lg-5 mb-lg-5" data-aos="fade-down"
+                    data-aos-duration="500">ISN</h2>
+                </div>
+                <!-- nav toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#upperNavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- nav option -->
+                <div class="collapse navbar-collapse" id="upperNavBar">
+                    <ul class="navbar-nav ms-auto text-uppercase text-nowrap mb-lg-5 pb-lg-5"  data-aos="fade-down"
+                    data-aos-duration="500">
+                        <li class="nav-item mx-md-2">
+                            <a href="#home" class="nav-link active text-light">home</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#service-section" class="nav-link text-light">services</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#about-us-section" class="nav-link text-light">About us</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#teams-section" class="nav-link text-light">team</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#contact-us" class="nav-link text-light">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-            <!-- nav toggle button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#upperNavBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- nav option -->
-            <div class="collapse navbar-collapse" id="upperNavBar">
-                <ul class="navbar-nav ms-auto text-uppercase text-nowrap mb-lg-5 pb-lg-5">
-                    <li class="nav-item mx-md-2">
-                        <a href="#home" class="nav-link active text-light">home</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#service-section" class="nav-link text-light">services</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#about-us-section" class="nav-link text-light">About us</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#teams-section" class="nav-link text-light">team</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="#contact-us" class="nav-link text-light">contact us</a>
-                    </li>
-                </ul>
-            </div>
+        </nav>
 
-        </div>
-    </nav>
+        <!------------------------------------------------------------>
+        <!------------------------- NAV-BAR END ---------------------->
+        <!------------------------------------------------------------>
 
-    <!------------------------------------------------------------>
-    <!------------------------- NAV-BAR END ---------------------->
-    <!------------------------------------------------------------>
-
-    <!------------------------------------------------------------>
-    <!------------------------ Hero Section ---------------------->
-    <!------------------------------------------------------------>
+        <!------------------------------------------------------------>
+        <!------------------------ Hero Section ---------------------->
+        <!------------------------------------------------------------>
 
 
-    <div id="#hero-section" class=" bg-white container py-sm-5 pages">
-        <div class="row g-0">
-            <div class="col-lg-7 order-lg-1 order-2 d-flex justify-content-center align-items-center secondary-color pt-lg-5 pt-3">
-                <div class="text-capitalize px-md-5 px-3" >
-                    <div class="fs-1 text-md-nowrap fw-bold">
-                        Innovative Solutions Micihigan
+        <div id="#hero-section" class=" bg-white container py-sm-5 mb-sm-0 mb-5">
+            <div class="row g-0">
+                <div class="col-lg-7 order-lg-1 order-2 d-flex justify-content-center align-items-center secondary-color pt-lg-5 pt-3">
+                    <div class="text-capitalize px-md-5 px-3" >
+                        <div class="fs-1 text-md-nowrap fw-bold" data-aos="fade"
+                        data-aos-duration="1000" data-aos-delay="500">
+                            Innovative Solutions Micihigan
+                        </div>
+                        <div class="fs-6 small pe-5" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1000">
+                            We are leading digital company with a passion for cutting-edge technology and a commitment to innovation, we deliver tailored software solutions that empower businesses and organizations to thrive in the digital world.
+                        </div>
+                        <button type="button" class="btn rounded-pill text-nowrap px-4 py-2 rounded-2 border-0 outline-0 neutral-color text-capitalize mt-3 primary-bg" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1000">Hire US</button> 
                     </div>
-                    <div class="fs-6 small pe-5">
-                        We are leading digital company with a passion for cutting-edge technology and a commitment to innovation, we deliver tailored software solutions that empower businesses and organizations to thrive in the digital world.
-                    </div>
-                    <button type="button" class="btn rounded-pill text-nowrap px-4 py-2 rounded-2 border-0 outline-0 neutral-color text-capitalize mt-3 primary-bg">Hire US</button> 
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1 pt-lg-5 pt-5 px-lg-3 d-flex align-items-center">
+                    <img src="./img/10798281_19362653.jpg" alt="" srcset="" class="img-fluid animate__animated animate__slow animate__infinite animate__pulse"  data-aos="fade-up"
+                    data-aos-duration="1500" data-aos-delay="1000">
                 </div>
             </div>
-            <div class="col-lg-5 order-lg-2 order-1 pt-lg-5 pt-5 px-lg-3 d-flex align-items-center">
-                <img src="./img/10798281_19362653.jpg" alt="" srcset="" class="img-fluid">
-            </div>
         </div>
-    </div>
 
 
-    <!------------------------------------------------------------>
-    <!--------------------- Hero Section End---------------------->
-    <!------------------------------------------------------------>
-    
+        <!------------------------------------------------------------>
+        <!--------------------- Hero Section End---------------------->
+        <!------------------------------------------------------------>
+
+   </section>    
     <!------------------------------------------------------------>
     <!-------------------------- Services ------------------------>
     <!------------------------------------------------------------>
 
-    <div class=" bg-white  pages" id="service-section">
-        <div class=" position-relative service-upper-svg-wrapper">
+    <section class=" bg-white  pages page-height" id="service-section">
+        <div class=" position-relative service-upper-svg-wrapper d-sm-block d-none">
             <div class="service-upper-svg">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill" stroke="none"></path>
@@ -104,7 +112,8 @@
         <div id="service" class="container-fluid py-5 g-0">
             <div class="row g-0">
                 <div class="row g-0 text-center mt-4">
-                    <div class="fs-1 page-title secondary-color text-center align-self-center text-capitalize pt-5 fw-bold">
+                    <div class="fs-1 page-title secondary-color text-center align-self-center text-capitalize pt-5 fw-bold"  data-aos="fade-down"
+                    data-aos-duration="1000" data-aos-delay="500">
                         Services
                     </div>
         
@@ -115,42 +124,54 @@
                             <div class="card shadow rounded-5 pb-5 px-2 position-relative" style="width: 20rem;">
                                 <div class="row g-0 d-flex align-items-center secondary-color ">
                                     <div class=" position-absolute top-0 start-50 translate-middle img-container text-center" style="width: 3rem;">
-                                        <img src="./img/uiux.png" alt="" class="img-fluid me-2">
+                                        <img src="./img/uiux.png" alt="" class="img-fluid me-2"  data-aos="fade-down"
+                                        data-aos-duration="1000" data-aos-delay="700">
                                     </div>
-                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold">UI/UX</div>
+                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold"  data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="700">UI/UX</div>
                                 </div>
-                                <p class="row g-0 pt-3 px-md-5 px-3">
+                                <p class="row g-0 pt-3 px-md-5 px-3"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-delay="1100">
                                     Creating memorable digital experiences starts with deep understanding of your users. Our UI/UX designers are master at crafting intuitive, visually appealing interfaces that captivate and engage
                                 </p>
-                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2">Buy</button>
+                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2"  data-aos="fade"
+                                data-aos-duration="1000" data-aos-delay="1400">Buy</button>
                             </div>
                         </div>
                         <div class="col-lg d-flex justify-content-center mt-xl-0 mt-5">
                             <div class="card shadow rounded-5 pb-5 px-md-2 px-5 mb-lg-0 m-md-0 mt-5 position-relative" style="width: 20rem;">
                                 <div class="row g-0 d-flex align-items-center secondary-color ">
                                     <div class=" position-absolute top-0 start-50 translate-middle img-container text-center" style="width: 3rem;">
-                                        <img src="./img/webDev.png" alt="" class="img-fluid me-2">
+                                        <img src="./img/webDev.png" alt="" class="img-fluid me-2"  data-aos="fade-down"
+                                        data-aos-duration="1000" data-aos-delay="700">
                                     </div>
-                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold">website development</div>
+                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold"  data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="700">website development</div>
                                 </div>
-                                <p class="row g-0 pt-3 px-md-5 px-3">
+                                <p class="row g-0 pt-3 px-md-5 px-3" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-delay="1100">
                                     Our website experts combine aesthtics with functionality to build reponsive, website that align wiht your brand identity.
                                 </p>
-                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2">Buy</button>
+                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2" data-aos="fade"
+                                data-aos-duration="1000" data-aos-delay="1400">Buy</button>
                             </div>
                         </div>
                         <div class="col-lg d-flex justify-content-center mt-xl-0 mt-5">
                             <div class="card shadow rounded-5 pt-md-3 pb-5 px-3 position-relative mb-lg-0 m-md-0 mt-5" style="width: 20rem;">
                                 <div class="row g-0 d-flex align-items-center secondary-color ">
                                     <div class=" position-absolute top-0 start-50 translate-middle img-container text-center" style="width: 3rem;">
-                                        <img src="./img/mblDev.png" alt="" class="img-fluid me-2">
+                                        <img src="./img/mblDev.png" alt="" class="img-fluid me-2"  data-aos="fade-down"
+                                        data-aos-duration="1000" data-aos-delay="700">
                                     </div>
-                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold">App Development</div>
+                                    <div class="col fs-4 ps-1 text-center text-capitalize mt-5 fw-bold"  data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="700">App Development</div>
                                 </div>
-                                <p class="row g-0 pt-2 px-md-5 px-5">
+                                <p class="row g-0 pt-2 px-md-5 px-5" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-delay="1100">
                                    Our mobile app development team transforms your ideas into feature-rich, scalable application that cater to iOS and Andriod platforms.
                                 </p>
-                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2">Buy</button>
+                                <button type="button" class="btn neutral-color primary-bg position-absolute top-100 start-50 translate-middle rounded-pill px-5 py-2" data-aos="fade"
+                                data-aos-duration="1000" data-aos-delay="1400">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -159,14 +180,14 @@
         </div>
     
     
-        <div class="position-relative service-lower-svg-wrapper">
+        <div class="position-relative service-lower-svg-wrapper  d-sm-block d-none">
             <div class="service-lower-svg">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill" stroke="none"></path>
                 </svg>
             </div>
         </div>
-    </div>
+    </section>
     <!------------------------------------------------------------>
     <!------------------------- Services End---------------------->
     <!------------------------------------------------------------>
@@ -177,23 +198,25 @@
     <!------------------------------------------------------------>
 
 
-    <div class="container-fluid bg-white pages">
-        <div id="choose-us-section" class=" container g-0 text-center mt-5 pt-5 px-sm-0 px-3">
+    <section class=" bg-white pages page-height">
+        <div id="choose-us-section" class=" container g-0 text-center pt-5 px-sm-0 px-3">
             <div class="row g-0 text-center pb-3">
-                <div class="fs-1 fw-bold text-capitalize">
+                <div class="fs-1 fw-bold text-capitalize" data-aos="fade-down"
+                data-aos-duration="1000" data-aos-delay="500">
                     Why you should choose us?
                 </div>
             </div>
-            <div class="row g-0 mt-sm-5 mt-2">
+            <div class="row g-0 mt-sm-0 mt-2">
                 <div class="col-xxl-4 col-lg-6 d-flex flex-column justify-content-center align-items-center pb-xxl-5 mb-xxl-5">
                     <div class="row g-0">
                         <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/trust.png" alt="" class="img-fluid">
                                     </div>
-                                    <div class="secondary-color text-capitalize mt-3 fs-4 text-nowrap">
+                                    <div class="secondary-color text-capitalize mt-3 fs-4 text-nowrap" >
                                         trust worthly
                                     </div>
                                 </div>
@@ -205,7 +228,8 @@
                     </div>
                     <div class="row mt-3 g-0">
                         <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/live-support.png" alt="" class="img-fluid">
@@ -224,7 +248,8 @@
                 <div class="col-xxl-4 col-lg-6 d-flex flex-column justify-content-center align-items-center pt-xxl-5 mt-xxl-5">
                     <div class="row mt-3 g-0">
                         <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1500">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/creative-thinking.png" alt="" class="img-fluid">
@@ -241,7 +266,8 @@
                     </div>
                     <div class="row mt-3 g-0">
                         <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1500">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/money.png" alt="" class="img-fluid">
@@ -262,7 +288,8 @@
                 <div class="col-xxl-4 d-flex flex-xxl-column flex-lg-row flex-column justify-content-xxl-center justify-content-lg-around justify-content-center align-items-center mt-3 pb-xxl-5 mb-xxl-5">
                     <div class="row g-0">
                         <div class="col-lg-4 col-sm-6 mt-xl-0 mt-3">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/growth.png" alt="" class="img-fluid">
@@ -279,7 +306,8 @@
                     </div>
                     <div class="row mt-lg-0 mt-3 g-0">
                         <div class="col-lg-4 col-sm-6 mt-xl-0 mt-3 ">
-                            <div class="card shadow py-3 px-4 rounded-4 my-2">
+                            <div class="card shadow py-3 px-4 rounded-4 my-2" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="1000">
                                 <div class="row g-0 d-flex justify-content-center align-items-center">
                                     <div class="pe-sm-2" style="width: 3rem!important;">
                                         <img src="./img/growth.png" alt="" class="img-fluid">
@@ -297,7 +325,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!------------------------------------------------------------>
@@ -309,27 +337,31 @@
     <!-------------------------- About Us ------------------------>
     <!------------------------------------------------------------>
 
-    <div id="about-us-section" class="container g-0 mt-5 pt-5 pages bg-white">
+    <section id="about-us-section" class="container g-0 mt-md-0 mt-5 pt-5 pages bg-white page-height">
         <div class="row g-0 text-center text-capitalize secondary-color fw-bolder">
-            <div class="fs-1 fw-bold page-title">
+            <div class="fs-1 fw-bold page-title"  data-aos="fade-down"
+            data-aos-duration="1000" data-aos-delay="500">
                 About us
             </div>
         </div>
         <div class="row g-0 mt-4 text-center">
             <div class="fs-3 primary-color px-md-0 px-2 py-md-5 py-2 fw-bold">
-                <q><i>Seamless Solutions, Infinite Possibilities: Partnering to Innovate Your Digital Journey</i></q>
+                <q><i data-aos="fade"
+                    data-aos-duration="1000" data-aos-delay="1000">Seamless Solutions, Infinite Possibilities: Partnering to Innovate Your Digital Journey</i></q>
             </div>
         </div>
         <div class="row g-0 mt-4">
             <div class="row g-0">
-                <div class="fs-2 text-center text-capitalize secondary-color">
+                <div class="fs-2 text-center text-capitalize secondary-color" data-aos="fade"
+                data-aos-duration="1000" data-aos-delay="1000">
                     Our journey
                 </div>
             </div>
             <div class="row g-0 mt-4 ">
                 <div class="container">
-                    <div class="row g-0 d-flex justify-content-center ">
-                        <div class="col-lg-4 p-4" style="width: 16rem;">
+                    <div class="row g-0 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1500">
+                        <div class="col-lg-4 p-4" style="width: 16rem;" >
                             <img src="./img/began (1).jpg" alt="" class="img-fluid">
                         </div>
                         <p class="col-lg-8 align-self-center text-lg-start text-center mt-lg-0 mt-2 px-3"> 
@@ -337,7 +369,8 @@
                         </p>
                     </div>
 
-                    <div class="row g-0 d-flex justify-content-center mt-md-0 mt-3">
+                    <div class="row g-0 d-flex justify-content-center mt-md-0 mt-3" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1500">
                         <p class="col-lg-8 align-self-center text-lg-start text-center  order-lg-1 order-2 mt-lg-0 mt-2 px-3"> 
                             Over the years, we've embraced <span class="primary-color">challenges</span> as opportunities and transformed complexities into elegant solutions. Our journey has been marked by collaborative partnerships, where we've worked hand-in-hand with clients to turn their visions into digital reality.
                         </p>
@@ -346,7 +379,8 @@
                         </div>
                     </div>
                     
-                    <div class="row g-0 d-flex justify-content-center  mt-md-0 mt-3">
+                    <div class="row g-0 d-flex justify-content-center  mt-md-0 mt-3" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1500">
                         <div class="col-lg-4 p-4 " style="width: 16rem;">
                             <img src="./img/creativity.jpg" alt="" class="img-fluid">
                         </div>
@@ -355,22 +389,12 @@
                         </p>
                     </div>
 
-                    <div class="row g-0 d-flex justify-content-center  mt-md-0 mt-3">
-                        <p class="col-lg-8 align-self-center text-lg-start text-center  order-lg-1 order-2 mt-lg-0 mt-2 px-3"> 
-                            As we continue  our journey, our commitment to innovation, quality, and client satisfaction remains unwavering. <span class="primary-color">Join us</span> as we pave the way for transformative software solutions that shape the future of business in the digital age.
-                        </p>
-                        <div class="col-lg-4 p-4 order-lg-2 order-1" style="width: 16rem;">
-                            <img src="./img/join-us.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-
-
                 </div>
                 
             </div>
 
         </div>
-    </div>
+    </section>
     
 
 
@@ -382,14 +406,16 @@
     <!------------------------------------------------------------>
     <!---------------------------- Teams ------------------------->
     <!------------------------------------------------------------>
-    <div id="teams-section" class="container g-0 pages bg-white mt-5 pt-5">
+    <section id="teams-section" class="container g-0 pages bg-white mt-md-0 mt-5 pt-5 page-height">
         <div class="row g-0">
-            <div class="fs-1 fw-bolder secondary-color text-center">
+            <div class="fs-1 fw-bolder secondary-color text-center"  data-aos="fade-down"
+            data-aos-duration="1000" data-aos-delay="500">
                 Our Team
             </div>
         </div>
         <div class="container">
-            <div class="row g-0  text mt-sm-5 mt-5 py-5">
+            <div class="row g-0  text mt-sm-5 mt-5 py-5"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="1500">
                 <div class="col-xl-4 col-md-6 mt-md-0 mt-sm-5 d-flex flex-column justify-content-center align-items-center">
                     <div class="col-lg-4 text-center image-container">
                         <img src="./img/person/person03.jpg" alt="" class="img-fluid rounded-circle object-cover">
@@ -458,7 +484,7 @@
                 </div>
             </div> 
         </div>           
-    </div>
+    </section>
     
     
     
@@ -470,30 +496,43 @@
     <!--------------------------- Contact Us --------------------->
     <!------------------------------------------------------------>
 
-    <div id="contact-us" class="container-fluid g-0 mt-5 pages bg-white py-5">
-        <div class="row g-0 py-5">
-            <div class="fs-1 fw-bolder neutral-color text-center">
+    <section id="contact-us" class="container-fluid g-0 mt-md-0 mt-5 pages bg-white py-5 page-height">
+        <div class="row g-0">
+            <div class="fs-1 fw-bolder neutral-color text-center" data-aos="fade-down"
+            data-aos-duration="1000" data-aos-delay="500">
                 Contact Us
             </div>
         </div>
-        <div class="container mt-5 px-sm-5 px-4 py-5">
-            <form class="col-md px-sm-5 py-sm-5 px-2">
+        <div class="container mt-3 px-sm-5 px-4">
+            <form class="col-md px-sm-5 py-sm-3 px-2">
                 <div class="row g-0 my-3">
-                    <input type="text" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Name">
+                    <input type="text" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Name" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1000">
                 </div>
                 <div class="row g-0 my-3">
-                    <input type="email" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Mail">
+                    <input type="tel" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Contact" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1300">
                 </div>
                 <div class="row g-0 my-3">
-                    <textarea class="form-control  py-4 rounded-4  ps-4" style="resize:none;" id="exampleFormControlTextarea1" rows="7" placeholder="Enter Message"></textarea>
+                    <input type="email" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Mail" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1600">
                 </div>
-                <div class="w-100 text-center">
+                <div class="row g-0 my-3">
+                    <input type="text" class="form-control py-4 rounded-4 ps-4" name="" id="" aria-describedby="emailHelpId" placeholder="Enter Organization" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="1900">
+                </div>
+                <div class="row g-0 my-3">
+                    <textarea class="form-control  py-4 rounded-4  ps-4" style="resize:none;" id="exampleFormControlTextarea1" rows="7" placeholder="Enter Message" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="2100"></textarea>
+                </div>
+                <div class="w-100 text-center" data-aos="fade-up"
+                data-aos-duration="800" data-aos-delay="2200">
                     <button type="button" class="btn primary-bg  neutral-color rounded-pill px-5 py-2 pt-2 mt-5">Submit</button>
                 </div>
                 
             </form>
         </div>
-    </div>
+    </section>
 
     <!------------------------------------------------------------>
     <!------------------------ Contact Us END---------------------->
@@ -504,7 +543,7 @@
     <!------------------------------------------------------------>
 
 
-    <div class="container-fluid py-5 bg-black pages" id="footer">
+    <section class="container-fluid py-5 bg-black pages" id="footer">
         <div class="row g-0 text-center primary-color">
             <div class="fs-1 fw-bolder">ISN</div>
         </div>
@@ -519,7 +558,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!------------------------------------------------------------>
     <!-------------------------- Footer End ---------------------->
@@ -552,12 +591,18 @@
     <!--  Animation on Scroll(aos) Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        // AOS.init({
+        //     disable: function() {
+        //         var maxWidth = 1200;
+        //         return window.innerWidth < maxWidth;
+        //     }
+        // });
         AOS.init();
     </script>
 
 
     <script src="./js/scroll.js"></script>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
   </body>
 </html>
 

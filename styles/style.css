@@ -157,6 +157,11 @@
     .navbar-brand{
         color: var(--primary-color);
     }
+    .page-height{
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+
     
 }
 
@@ -340,3 +345,26 @@
     color: white;
 }
 
+#service .card:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+
+
+#service .card:hover img{
+    animation: pulse;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+
+
+#choose-us-section .card:hover img{
+    animation: pulse;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite; 
+}
+
+#choose-us-section .card:hover {
+    box-shadow: none !important; /* Remove the box shadow on hover */
+  }
