@@ -345,10 +345,7 @@
     color: white;
 }
 
-#service .card:hover{
-    animation: pulse;
-    animation-duration: 0.5s;
-}
+
 
 
 #service .card:hover img{
@@ -365,6 +362,7 @@
     animation-iteration-count: infinite; 
 }
 
-#choose-us-section .card:hover {
-    box-shadow: none !important; /* Remove the box shadow on hover */
-  }
+#choose-us-section .card:hover,
+#service .card:hover {
+    box-shadow: 0px 0px 6px rgb(115, 115, 115)!important; /* Remove the box shadow on hover */
+}
