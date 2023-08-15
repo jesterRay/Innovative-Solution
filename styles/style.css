@@ -343,6 +343,7 @@
 .btn.active{
     background-color: rgb(98, 116, 255);
     color: white;
+
 }
 
 
@@ -365,4 +366,67 @@
 #choose-us-section .card:hover,
 #service .card:hover {
     box-shadow: 0px 0px 6px rgb(115, 115, 115)!important; /* Remove the box shadow on hover */
+}
+
+
+
+
+
+
+.navbar-toggler{
+    width: 20px!important;
+    height: 20px!important;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline:none;
+    border: none;
+    box-shadow: none;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: var(--neutral-bg);
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+
+}
+
+.navbar-toggler .top-bar{
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    margin-top: 0;
+    transform: rotate(-135deg);
+}
+
+
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
 }
